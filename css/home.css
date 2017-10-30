@@ -1,0 +1,178 @@
+@media screen and (min-width: 768px) {
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block; }
+  body {
+    line-height: 1; }
+  ol, ul {
+    list-style: none; }
+  blockquote, q {
+    quotes: none; }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none; }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #26282d;
+    font-family: 'Audiowide', cursive;
+    overflow-x: hidden;
+    padding-top: 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+  .sidenav a:hover {
+    color: #f1f1f1;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+  .button {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 24px; }
+  #feet {
+    background-color: white;
+    padding-bottom: 2.5%; }
+  #art {
+    position: absolute;
+    width: 5.5%;
+    height: auto;
+    bottom: -116%;
+    left: 3%; }
+  #print {
+    position: relative;
+    width: 5.5%;
+    height: auto;
+    left: 3%; }
+  #icon {
+    width: 33%;
+    left: 65%;
+    position: absolute;
+    display: block;
+    bottom: -116%; }
+  #detail {
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    float: left;
+    font-size: 26px; }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white; }
+  .fa-facebook {
+    background: #224195;
+    color: white; }
+  .fa-youtube {
+    background: #bb0000;
+    color: white; }
+  .fa-instagram {
+    background: #125688;
+    color: white; }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 42%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .fa:hover {
+    opacity: 0.7;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .links {
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    left: 3%;
+    font-size: 24px; }
+  .links:hover {
+    opacity: 0.6;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  #firstlink {
+    position: relative;
+    left: 41px;
+    top: -20px; }
+  #secondlink {
+    position: relative;
+    bottom: -20px;
+    left: 120px; }
+  body {
+    background-color: #a9b1b4; }
+  #head {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  #name {
+    font-size: 48px;
+    z-index: 1;
+    left: 19%;
+    top: 30%;
+    position: absolute;
+    font-family: 'Audiowide', cursive; }
+  .textfile {
+    margin: 1% 4% 2% 4%;
+    font-family: 'Quattrocento Sans', sans-serif; }
+  .textblock {
+    margin: 1%  30% 1% 4%;
+    font-family: 'Quattrocento Sans', sans-serif; }
+  #yummy {
+    position: relative;
+    display: block;
+    right: 10%;
+    float: right; } }
